@@ -3,4 +3,5 @@
 for i in $(seq 1 $BASH_TIMES);
 do
   echo $i
+  sleep 1
 done
