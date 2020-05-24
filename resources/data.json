@@ -1,4 +1,7 @@
 {
-  "firstname": "john",
-  "lastname": "chen"
+  "host1": "Rico",
+  "host2": "John",
+  "topic": "jenkins-workshop",
+  "organizer": "devops",
+  "date": "2020-06-21"
 }
