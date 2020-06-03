@@ -17,7 +17,7 @@ class utils1 implements Serializable {
   }
 
   String commitHash() {
-    trimOutput("git rev-parse HEAD", 7)
+    trimOutput( ${GIT_COMMIT}, 7)
   }
 
   private String trimOutput(String script, int maxLength) {
