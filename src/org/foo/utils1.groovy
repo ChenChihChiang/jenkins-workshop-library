@@ -14,7 +14,7 @@ class utils1 implements Serializable {
   }
 
   String commitAuthor() {
-    trimOutput("git log --format=\'%an\' -n 1 HEAD", 80)
+    trimOutput("git log --format=\'%an\' -n 1 HEAD")
   }
 
   String commitHash() {
