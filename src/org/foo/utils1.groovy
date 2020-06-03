@@ -9,7 +9,7 @@ class utils1 implements Serializable {
   }
 
   String commitMessage() {
-    trimOutput("git log --format=%B -n 1 HEAD | head -n 1", 180)
+    return trimOutput("git log --format=%B -n 1 HEAD | head -n 1", 180)
   }
 
   String commitAuthor() {
