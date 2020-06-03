@@ -13,9 +13,9 @@ import org.foo.utils1
             return "host1 = ${host1}"
         }
         
-        def showcommitid() {
-            return utils1.getGitCommitId()
-        }
+        //def showcommitid() {
+        //    return utils1.getGitCommitId()
+        //}
         
         def getVersion(String BUILD_NUMBER, String GIT_COMMIT) {
             return "Build_Number: ${BUILD_NUMBER}, Git_Commit: ${GIT_COMMIT}"
