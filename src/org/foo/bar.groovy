@@ -1,5 +1,5 @@
 package org.foo
-import org.foo.bar1
+import org.foo.utils1
 
     class utils implements Serializable {
 
