@@ -9,7 +9,7 @@ package org.foo
   		date = "2020-06-21";
       
 
-  		def showcommitid() {
+  		def showhost() {
             println "host1 = ${host1}";
         }
         
