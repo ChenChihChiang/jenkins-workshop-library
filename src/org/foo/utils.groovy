@@ -14,7 +14,7 @@ import org.foo.utils1
         }
         
         def showcommitid() {
-            return getGitCommitId()
+            return utils1.getGitCommitId()
         }
         
         def getVersion(String BUILD_NUMBER, String GIT_COMMIT) {
