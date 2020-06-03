@@ -13,7 +13,7 @@ package org.foo
         }
         
         def showcommitid() {
-            getGitCommitId()
+            return getGitCommitId()
         }
         
         def getVersion(String BUILD_NUMBER, String GIT_COMMIT) {
