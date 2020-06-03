@@ -9,7 +9,7 @@ package org.foo
         def date = "2020-06-21";
         
         def showhost() {
-            println "host1 = ${.host1}";
+            println "host1 = ${super.host1}";
         }
         
         def showcommitid() {
