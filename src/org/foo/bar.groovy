@@ -2,13 +2,12 @@ package org.foo
 
     class utils implements Serializable {
 
-        host1 = "Rico";
-  		host2 = "John";
-  		topic = "jenkins-workshop";
-  		organizer = "devops";
-  		date = "2020-06-21";
+        def host1 = "Rico";
+        def host2 = "John";
+        def topic = "jenkins-workshop";
+        def organizer = "devops";
+        def date = "2020-06-21";
       
-
   		def showhost() {
             println "host1 = ${host1}";
         }
