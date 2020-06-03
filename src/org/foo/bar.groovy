@@ -1,4 +1,5 @@
 package org.foo
+import org.foo.bar1
 
     class utils implements Serializable {
 
@@ -13,7 +14,7 @@ package org.foo
         }
         
         def showcommitid() {
-            return utils1.getGitCommitId()
+            return getGitCommitId()
         }
         
         def getVersion(String BUILD_NUMBER, String GIT_COMMIT) {
